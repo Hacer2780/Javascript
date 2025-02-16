@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+    <title>Cart</title>
     <!-- !Bostrap Icons CDN -->
     <link
       rel="stylesheet"
@@ -223,311 +223,69 @@
     </div>
     <!-- !modal search end -->
 
-    <!-- ! slider start -->
-    <section class="slider">
-      <div class="slider-elements">
-        <div class="slider-item">
-          <div class="slider-image">
-            <img
-              src="assets/img/slider-new-seson.png"
-              class="img-fluid"
-              alt=""
-            />
-          </div>
-
-          <div class="container">
-            <p class="slider-title">New Sesons 2025</p>
-            <h2>Save up to 70%</h2>
-            <a href="#" class="btn btn-lg btn-primary">Explore Now</a>
-          </div>
-        </div>
-
-        <div class="slider-buttons">
-          <button>
-            <i class="bi bi-chevron-left"></i>
-          </button>
-          <button>
-            <i class="bi bi-chevron-right"></i>
-          </button>
-        </div>
-
-        <div class="slider-dots">
-          <button class="slider-dot">
-            <span></span>
-          </button>
-          <button class="slider-dot">
-            <span></span>
-          </button>
-          <button class="slider-dot">
-            <span></span>
-          </button>
-        </div>
-      </div>
-    </section>
-    <!-- ! slider end -->
-
-    <!-- ! categories start-->
-    <section class="categories">
+    <!-- ! cart start -->
+    <section class="cart-pages">
       <div class="container">
-        <div class="section-title">
-          <h2>All Categories</h2>
-          <p>Spring Collection Highlights</p>
-        </div>
-        <ul class="category-list">
-          <li class="category-item">
-            <a href="">
-              <img
-                src="assets/img/RainyDays_Jacket3.jpg"
-                class="category-image"
-                alt=""
-              />
-              <span class="category-title">Men`s Raincoats</span>
-            </a>
-          </li>
-          <li class="category-item">
-            <a href="">
-              <img
-                src="assets/img/RainyDays_Jacket4.jpg"
-                class="category-image"
-                alt=""
-              />
-              <span class="category-title">Women`s Raincoats</span>
-            </a>
-          </li>
-          <li class="category-item">
-            <a href="">
-              <img
-                src="assets/img/RainyDays_Jacket5.jpg"
-                class="category-image"
-                alt=""
-              />
-              <span class="category-title">Waterproof Jackets</span>
-            </a>
-          </li>
-          <li class="category-item">
-            <a href="">
-              <img
-                src="assets/img/RainyDays_Jacket6.jpg"
-                class="category-image"
-                alt=""
-              />
-              <span class="category-title">Trench Coats</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- ! categories end-->
-
-    <!-- ! products start -->
-    <section class="products">
-      <div class="container">
-        <div class="section-title">
-          <h2>Men, Women & Essential Outerwear</h2>
-          <p>Look Sharp, Stay Dry</p>
-        </div>
-        <div class="product-wrapper">
-          <ul class="product-list">
-            <li class="product-item">
-              <div class="product-image">
-                <a href="#">
-                  <img src="assets/img/RainyDays_Jacket4.jpg" alt="" />
-                </a>
+        <div class="cart-page-wrapper">
+          <div class="cart-form">
+            <div class="free-progress-bar">
+              <p class="progress-bar-title">
+                Add <strong>$161.00</strong>to cart and get free shipping!
+              </p>
+              <div class="progress-bar">
+                <span class="progress"></span>
               </div>
-              <div class="product-info">
-                <a href="" class="product-title"
-                  >HydroTech Wind & Rain Jacket</a
-                >
-                <ul class="product-star">
-                  <li>
-                    <i class="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i class="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i class="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i class="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i class="bi bi-star-half"></i>
-                  </li>
-                </ul>
-                <div class="product-prices">
-                  <strong class="new-price">$102.00</strong>
-                  <span class="old-price">$185.00</span>
+            </div>
+            <div class="shop-table-wrapper">
+              <table class="shop-table">
+                <thead>
+                  <th class="product-thumbnail">&nbsp;</th>
+                  <th class="product-thumbnail">&nbsp;</th>
+                  <th class="product-name">Product</th>
+                  <th class="product-price">Price</th>
+                  <th class="product-quantity">Quantity</th>
+                  <th class="product-subtotal">Subtotal</th>
+                </thead>
+                <tbody class="cart-wrapper">
+                  <tr class="cart-item">
+                    <td></td>
+                    <td class="cart-image">
+                      <img src="assets/img/RainyDays_Jacket6.jpg" alt="" />
+                      <i class="bi bi-x delete-cart"></i>
+                    </td>
+                    <td>StormGuard Waterproof Shell Jacket</td>
+                    <td>$102.00</td>
+                    <td>1</td>
+                    <td>$102.00</td>
+                  </tr>
+                  <tr class="cart-item">
+                    <td></td>
+                    <td class="cart-image">
+                      <img src="assets/img/RainyDays_Jacket7.jpg" alt="" />
+                      <i class="bi bi-x delete-cart"></i>
+                    </td>
+                    <td>UltraFlex Packable Rain Jacket</td>
+                    <td>$105.00</td>
+                    <td>1</td>
+                    <td>$105.00</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="actions-wrapper">
+                <div class="coupon">
+                    <input type="text" class="input-text" placeholder="Coupon code">
+                    <button class="btn">Apply Coupon</button>
                 </div>
-                <span class="product-discount">-45%</span>
-                <div class="product-links">
-                  <button>
-                    <i class="bi bi-basket-fill"></i>
-                  </button>
-                  <button>
-                    <i class="bi bi-heart-fill"></i>
-                  </button>
-                  <a href="#">
-                    <i class="bi bi-eye-fill"></i>
-                  </a>
-                  <a href="#">
-                    <i class="bi bi-share-fill"></i>
-                  </a>
+                <div class="update-cart">
+                    <button class="btn">Update Cart</button>
                 </div>
               </div>
-            </li>
-
-            <li class="product-item">
-              <div class="product-image">
-                <a href="#">
-                  <img src="assets/img/RainyDays_Jacket5.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <a href="" class="product-title"
-                  >Nimbus Ultra-Light Rain Jacket</a
-                >
-                <ul class="product-star">
-                  <li>
-                    <i class="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i class="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i class="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i class="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i class="bi bi-star-half"></i>
-                  </li>
-                </ul>
-                <div class="product-prices">
-                  <strong class="new-price">$91.00</strong>
-                  <span class="old-price">$130.00</span>
-                </div>
-                <span class="product-discount">-30%</span>
-                <div class="product-links">
-                  <button>
-                    <i class="bi bi-basket-fill"></i>
-                  </button>
-                  <button>
-                    <i class="bi bi-heart-fill"></i>
-                  </button>
-                  <a href="#">
-                    <i class="bi bi-eye-fill"></i>
-                  </a>
-                  <a href="#">
-                    <i class="bi bi-share-fill"></i>
-                  </a>
-                </div>
-              </div>
-            </li>
-
-            <li class="product-item">
-              <div class="product-image">
-                <a href="#">
-                  <img src="assets/img/RainyDays_Jacket7.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <a href="" class="product-title"
-                  >UltraFlex Packable Rain Jacket</a
-                >
-                <ul class="product-star">
-                  <li>
-                    <i class="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i class="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i class="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i class="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i class="bi bi-star-half"></i>
-                  </li>
-                </ul>
-                <div class="product-prices">
-                  <strong class="new-price">$105.00</strong>
-                  <span class="old-price">$140.00</span>
-                </div>
-                <span class="product-discount">-25%</span>
-                <div class="product-links">
-                  <button>
-                    <i class="bi bi-basket-fill"></i>
-                  </button>
-                  <button>
-                    <i class="bi bi-heart-fill"></i>
-                  </button>
-                  <a href="#">
-                    <i class="bi bi-eye-fill"></i>
-                  </a>
-                  <a href="#">
-                    <i class="bi bi-share-fill"></i>
-                  </a>
-                </div>
-              </div>
-            </li>
-
-            <li class="product-item">
-              <div class="product-image">
-                <a href="#">
-                  <img src="assets/img/RainyDays_Jacket6.jpg" alt="" />
-                </a>
-              </div>
-              <div class="product-info">
-                <a href="" class="product-title"
-                  >StormGuard Waterproof Shell Jacket</a
-                >
-                <ul class="product-star">
-                  <li>
-                    <i class="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i class="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i class="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i class="bi bi-star-fill"></i>
-                  </li>
-                  <li>
-                    <i class="bi bi-star-half"></i>
-                  </li>
-                </ul>
-                <div class="product-prices">
-                  <strong class="new-price">$96.00</strong>
-                  <span class="old-price">$160.00</span>
-                </div>
-                <span class="product-discount">-40%</span>
-                <div class="product-links">
-                  <button>
-                    <i class="bi bi-basket-fill"></i>
-                  </button>
-                  <button>
-                    <i class="bi bi-heart-fill"></i>
-                  </button>
-                  <a href="#">
-                    <i class="bi bi-eye-fill"></i>
-                  </a>
-                  <a href="#">
-                    <i class="bi bi-share-fill"></i>
-                  </a>
-                </div>
-              </div>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-    <!-- ! products end -->
+    <!-- ! cart end -->
 
     <!-- ! policy start -->
     <section class="policy">
