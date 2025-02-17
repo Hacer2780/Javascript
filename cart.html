@@ -154,7 +154,7 @@
             </div>
 
             <div class="header-right">
-              <a href="" class="header-account">
+              <a href="account.html" class="header-account">
                 <i class="bi bi-person"></i>
               </a>
               <a href="#" class="toggle-button">
@@ -164,7 +164,7 @@
                 <i class="bi bi-heart"></i>
               </a>
               <div class="header-cart">
-                <a href="#" class="header-cart-link">
+                <a href="cart.html" class="header-cart-link">
                   <i class="bi bi-bag"></i>
                   <span class="header-cart-count">0</span>
                 </a>
@@ -227,7 +227,7 @@
     <section class="cart-pages">
       <div class="container">
         <div class="cart-page-wrapper">
-          <div class="cart-form">
+          <form class="cart-form">
             <div class="free-progress-bar">
               <p class="progress-bar-title">
                 Add <strong>$161.00</strong>to cart and get free shipping!
@@ -281,6 +281,43 @@
                 </div>
               </div>
             </div>
+          </form>
+          <div class="cart-collaterals">
+            <div class="cart-totals">
+              <h2>Cart Totals</h2>
+              <table>
+                <tbody>
+                  <tr class="cart-subtotal">
+                    <th>Subtotal</th>
+                    <td>
+                      <span id="subtotal">$207.00</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Shipping</th>
+                    <td>
+                      <ul>
+                        <li>
+                          <label>
+                            Fast Cargo: $20.00
+                            <input type="checkbox">
+                          </label>
+                        </li>
+                        <a href="">Change Address</a>
+                      </ul>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Total</th>
+                    <td>
+                      <strong>$207.00</strong>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="checkout">
+                <button class="btn btn-lg">Proceed to checkout</button>
+              </div>
           </div>
         </div>
       </div>
